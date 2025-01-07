@@ -1,0 +1,2 @@
+mov eax, [ebx + 4] ; This line may cause an access violation if ebx + 4 is outside the valid memory range. 
+mov ecx, [eax] ; This line may cause an access violation if eax points to an invalid memory location.
