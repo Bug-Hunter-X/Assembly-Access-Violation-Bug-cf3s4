@@ -1,0 +1,1 @@
+This repository contains an example of an uncommon assembly code error that can lead to an access violation. The bug is caused by improper memory access, specifically accessing memory locations that are outside the valid range. The solution demonstrates how to avoid this error by properly validating memory addresses before accessing them.
